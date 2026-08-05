@@ -77,8 +77,32 @@ Project documentation is available in the `docs/` directory and includes:
 * Pre-signed URLs
 * Bucket policies
 
+## Screenshots
+
+### Docker Container Running
+
+![Docker Container Running](screenshots/docker-floci-running.png)
+
+### AWS CLI Operations
+
+![AWS CLI Operations](screenshots/aws-cli-list-objects.png)
+
+### boto3 S3 Workflow
+
+![boto3 S3 Workflow](screenshots/boto3-s3-workflow.png)
+
+### Pre-Signed URL Generation
+
+![Pre-Signed URL Generation](screenshots/presigned-url-generation.png)
+
+### Bucket Policy Verification
+
+![Bucket Policy Verification](screenshots/bucket-policy-verification.png)
+
 ## Project Status
 
-🚧 In Progress
+## Project Status
 
-Future enhancements include implementing a complete end-to-end S3 workflow with boto3, expanding reusable components, and improving project automation.
+✅ Complete
+
+This project demonstrates core Amazon S3 operations using Python, boto3, the AWS CLI, and a local AWS environment powered by Floci. It includes bucket creation, object uploads and downloads, prefix-based object organization, pre-signed URLs, bucket policies, and complete S3 workflows.
