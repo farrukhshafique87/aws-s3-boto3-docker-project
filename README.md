@@ -1,4 +1,4 @@
-# AWS S3 101 Practice Project
+# AWS S3 Practice Project
 
 ## Overview
 
