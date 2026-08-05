@@ -15,3 +15,12 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Test data
+*.csv
+summary.txt
+local-sales/
+*-back.csv
+
+# AWS local files
+.aws/
