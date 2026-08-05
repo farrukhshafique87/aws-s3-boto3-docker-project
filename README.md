@@ -28,6 +28,7 @@ The goal is to understand core object storage concepts while building practical 
 ```text
 aws-s3-101/
 ├── docs/
+|   ├── boto3-s3-workflow.md
 │   ├── boto3-create-bucket.md
 │   ├── boto3-upload-object.md
 │   ├── bucket-policy.md
@@ -36,6 +37,7 @@ aws-s3-101/
 ├── policies/
 │   └── bucket-policy.json
 ├── src/
+|   ├── boto3_s3_workflow.py
 │   ├── create_bucket.py
 │   ├── generate_presigned_url.py
 │   └── upload_file.py
@@ -52,6 +54,8 @@ aws-s3-101/
 * Amazon S3 bucket management
 * Object storage concepts
 * Object uploads and downloads
+* boto3 S3 workflows
+* Prefix-based object organization and filtering
 * Prefix-based object organization
 * AWS CLI operations
 * boto3 SDK development
@@ -65,6 +69,7 @@ Project documentation is available in the `docs/` directory and includes:
 
 * Creating S3 buckets with boto3
 * Uploading objects with boto3
+* Complete S3 workflows using boto3
 * S3 CLI operations
 * Pre-signed URLs
 * Bucket policies
