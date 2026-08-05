@@ -27,6 +27,7 @@ The goal is to understand core object storage concepts while building practical 
 
 ```text
 aws-s3-101/
+|
 ├── docs/
 |   ├── boto3-s3-workflow.md
 │   ├── boto3-create-bucket.md
@@ -34,6 +35,7 @@ aws-s3-101/
 │   ├── bucket-policy.md
 │   ├── presigned-url.md
 │   └── s3-cli-operations.md
+|
 ├── policies/
 │   └── bucket-policy.json
 ├── src/
@@ -41,6 +43,7 @@ aws-s3-101/
 │   ├── create_bucket.py
 │   ├── generate_presigned_url.py
 │   └── upload_file.py
+|
 ├── docker/
 ├── docker-compose.yml
 ├── requirements.txt
